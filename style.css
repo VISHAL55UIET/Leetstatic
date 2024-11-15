@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #8EC5FC;
+    background-image: -webkit-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: -moz-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: -o-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container{
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      background-color: #FBAB7E;
+      background-image: -webkit-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+      background-image: -moz-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+      background-image: -o-linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+      background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+      
+      padding: 20px;
+      border-radius: 5px;
+      width: 50%;
+      max-width: 600px;
+}
+
+h1{
+    font-size: 2rem;
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+.user-input-container{
+    display: flex;
+    justify-content: space-between;
+}
+#user-input{
+    width: 90%;
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+#search-btn{
+    padding: 0.3rem;
+    border-radius: 4px;
+} 
+
+.circle{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2.9px solid rgb(19, 18, 18);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background: conic-gradient(#15e46f var(--progress-degree,40%),#135529 0%);
+    
+}
+.circle span{
+    position: relative;
+    z-index: 2 ;
+}
+ .progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
